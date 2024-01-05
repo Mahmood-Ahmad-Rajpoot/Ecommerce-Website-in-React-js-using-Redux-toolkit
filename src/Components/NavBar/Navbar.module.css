@@ -1,0 +1,39 @@
+.PageHeaderMain{
+    width: 100%;
+    height:70px;
+    background-color: transparent;
+    margin-top: 50px;
+    /* height: ; */
+}
+.StyleLogo{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 9px;
+}
+.StyleLogo img{
+    width:7vw;
+}
+.user{
+    width:10%;
+}
+
+.profilePicture{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: blue;
+}
+/* queries */
+@media only screen and (max-width: 899px) {
+    .NameLogo{
+        display: none;
+    }
+    
+}

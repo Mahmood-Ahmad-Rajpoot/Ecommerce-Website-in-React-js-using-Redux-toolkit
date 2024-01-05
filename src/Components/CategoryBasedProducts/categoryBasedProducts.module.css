@@ -1,0 +1,15 @@
+.TrendingMainDiv{
+    width: 100%;
+    padding: 5% ;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F4F3;
+    overflow: hidden;
+    padding-top: 10px;
+    /* align-self: center; */
+}
+.TrendingProductDiv:hover {
+    cursor: pointer;
+    opacity: 0.7;
+     
+}

@@ -1,0 +1,181 @@
+/* Categories */
+
+.ScrollContainerCategories {
+  width: 90%;
+  overflow-x:scroll;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.04);
+  background-color: white;
+  margin: 1% 5%;
+  border-radius: 0.5rem;
+  
+}
+#CategoryParentDiv {
+  width: 165%;
+  background-color: transparent;
+  /* height: 16vh;  */
+  /* overflow: hidden; */
+  
+   display: flex;
+   /* flex-wrap: nowrap; */
+  justify-content: space-around;
+  align-items: center;
+  /* margin-left: 30px; */
+  /* border:1px solid red; */
+}
+
+#CategoryCircleDiv {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem 0;
+  margin-right: 100px;
+
+}
+#CategoryCircleDiv:hover {
+  cursor: pointer;
+}
+#CategoryCircleDiv img {
+  border: 0.1rem solid lightgrey;
+}
+#CategoryCircleDiv img:hover {
+  opacity: 0.9;
+}
+
+::-webkit-scrollbar {
+  /* width: px; */
+  height: 2px;
+  background-color: rgb(211, 211, 211);
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #bbb4b4;
+  width: 5px;
+}
+
+/* Featured */
+#Featured {
+  width: 90%;
+  margin: 2%  5% ;
+  margin-top: 0;
+}
+
+/* card css */
+.circlebtn {
+  width: 1rem !important;
+  height: 1rem !important;
+  border-radius: 50% !important;
+  background-color: grey !important;
+}
+.circlebtn:focus {
+  background-image: linear-gradient(
+    to right bottom,
+    #FD6E87,
+    #FD6E87
+  );
+}
+.circlebtn:active{
+  background-image: linear-gradient(
+    to right bottom,
+    #FD6E87,
+    #FD6E87
+  );
+
+}
+.MainDiv3rd{
+  display: flex;
+  /* height: 500px; */
+  justify-content: space-between;
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+  width: 100%;
+}
+.CarouselMain {
+  border-radius: 1rem;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.04);
+/* overflow: hidden; */
+  width: 90%;
+  
+  margin: 5% 5% 1%;
+  /* background-color: #fe9eac; */
+ background-color: white;
+
+  /*#fe91a6  */
+}
+/* 4th component cardText */
+.TextCardMainDiv {
+  display: flex;
+  /* flex-direction:column; */
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 100px;
+  border-radius: 1rem;
+  margin: 2% 5%;
+  background-image: linear-gradient(to right, #5c20ca, rgb(47, 221, 212));
+}
+
+/* 5th component */
+.MainDiv5thCom {
+  width: 90%;
+  margin: 2% 5%;
+  background-image: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+  border-radius: 1rem;
+}
+/* 6th component */
+.MainDiv6thCom {
+  display: flex;
+  height: 100px;
+  padding: 0.1rem 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 2% 5%;
+  background-image: linear-gradient(to right, #FD6E87, #FD6E87);
+  border-radius: 1rem;
+}
+/* 7th component */
+.MainDiv7th {
+  width: 90%;
+  margin: 2% 5%;
+  /* height: 500px; */
+  border-radius: 1rem;
+
+  /* border:1px solid black; */
+}
+.CardTextBtn {
+  /* "d-flex flex-column  w-100  align-items-center" */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+  width: 100%;
+  /* margin-left: 2rem; */
+}
+/* 7th component */
+@media screen and (max-width: 900px) {
+  .CardTextBtn {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .MainDiv6thCom {
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    padding: 0.5rem 0.1rem;
+  }
+  .MainDiv7th{
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    padding: 0.5rem 0.1rem;
+
+  }
+}

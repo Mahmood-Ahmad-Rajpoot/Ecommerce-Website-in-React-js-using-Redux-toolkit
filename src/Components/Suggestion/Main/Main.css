@@ -1,0 +1,66 @@
+.ChooseProductMainDiv {
+  width: 90%;
+  margin:0 5%;
+  height: 100vh;
+}
+/*  */
+.skip {
+  color: black;
+  font-weight: 700;
+}
+/*  */
+.ImageAndParagraphDiv {
+  height: 50vh;
+}
+p {
+  color: #a8a8a9;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+h1 {
+  font-weight: 700;
+}
+
+/*  */
+.CirclesParentDiv {
+  width: 15%;
+}
+.pageCircle {
+  width: 0.62rem;
+  height: 0.62rem;
+  background-color: #a8a8a9;
+  border-radius: 100%;
+}
+.NextPrevPageDiv {
+  height: 50px;
+  bottom: 9%;
+}
+.pageNo p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.pageCircle {
+  width: 0.62rem;
+  height: 0.62rem;
+  background-color: #a8a8a9;
+  border-radius: 50%;
+}
+.previous {
+  color: #a8a8a9;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.elipse{
+    width:2.2rem;
+    height: 0.5rem;
+    border-radius: 10px;
+    background-color: black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 85%;
+  }
+}

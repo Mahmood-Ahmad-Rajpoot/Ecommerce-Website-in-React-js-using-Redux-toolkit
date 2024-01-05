@@ -1,0 +1,74 @@
+.MainShopPageDiv {
+  width: 100%;
+  height: auto;
+  padding: 2% 3%;
+  background-color: #f2f4f3;
+  overflow: hidden;
+  border: 1px solid red;
+}
+.percentOff {
+  color: #fa7189;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+.deliverIn {
+  color: #000;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+.within24 {
+  color: #010101;
+
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+.SecondMaindiv {
+  height: auto;
+}
+.ImageControlDiv {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+.ImageControlDiv > img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.SliderControlDiv {
+  position: relative;
+}
+.circlebtn {
+  background-color: lightgrey;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: none;
+}
+.circlebtn:hover {
+  background-color: grey;
+}
+
+/* icon component */
+.iconDivs {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -13px;
+}

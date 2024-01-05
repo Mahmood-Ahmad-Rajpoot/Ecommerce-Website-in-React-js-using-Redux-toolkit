@@ -1,0 +1,88 @@
+.AddressBox {
+  border-radius: 6px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0px 6px 14px -8px rgba(0, 0, 0, 0.25),
+    0px -4px 9px -7px rgba(0, 0, 0, 0.25);
+}
+.AddAddress {
+  border-radius: 6px;
+
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0px 6px 14px -8px rgba(0, 0, 0, 0.25),
+    0px -4px 9px -7px rgba(0, 0, 0, 0.25);
+}
+.editAddress {
+  cursor: pointer;
+  /* margin: 10px; */
+  width: 20px;
+  float: right;
+}
+.editAddress:hover {
+  opacity: 0.5;
+}
+.cartItemsBox {
+  height: 70vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
+
+ 
+
+}
+ /* For WebKit (Chrome, Safari) */
+ .cartItemsBox::-webkit-scrollbar {
+  width: 12px;
+}
+
+.cartItemsBox::-webkit-scrollbar-thumb {
+  background-color: pink;
+}
+
+.cartItemsBox::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+/* item box */
+.itemContainer {
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;    background: #fff;
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 5px;
+  cursor: pointer;
+}
+ 
+.itemContainer img {
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+}
+.imageContainer {
+  height: 25vh;
+}
+.priceMainDiv {
+  height: 30px;
+}
+.spanDiv {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.actualPrice {
+  text-decoration: line-through;
+font-size: 13px;
+  color: grey;
+}
+.discountPrice{
+  height:40px ;
+  margin: 0;
+}
+.footer{
+  width: 100%;
+  height: 40px;
+  
+}
+.footerQuantity{
+  color: grey;
+  font-size: 1rem;
+}

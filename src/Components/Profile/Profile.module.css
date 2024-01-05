@@ -1,0 +1,27 @@
+.Profiledetailform {
+  width: 60%;
+  height: auto;
+}
+.fields {
+  height: 60px;
+  margin-bottom: 1rem;
+}
+.textStyles {
+  color: #000;
+
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.uploadPicContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+  overflow: hidden;
+}
